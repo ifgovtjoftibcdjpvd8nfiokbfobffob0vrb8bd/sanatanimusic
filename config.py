@@ -40,15 +40,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mrcutex1/google",
+    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/sanatanimusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -88,14 +88,14 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.imghippo.com/files/Nav3344FQQ.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ikdmjt.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.imghippo.com/files/Nav3344FQQ.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ikdmjt.jpg"
 )
-PLAYLIST_IMG_URL = "https://i.imghippo.com/files/Nav3344FQQ.jpg"
-STATS_IMG_URL = "https://i.imghippo.com/files/Nav3344FQQ.jpg"
-TELEGRAM_AUDIO_URL = "https://i.imghippo.com/files/Nav3344FQQ.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ikdmjt.jpg"
 TELEGRAM_VIDEO_URL = "https://envs.sh/gAT.jpg"
 STREAM_IMG_URL = "https://envs.sh/gAT.jpg"
 SOUNCLOUD_IMG_URL = "https://envs.sh/gAT.jpg"
