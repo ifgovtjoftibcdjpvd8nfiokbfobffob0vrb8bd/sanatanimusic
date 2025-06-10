@@ -48,10 +48,10 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sanatani_Hu_be")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Sanatani_Hu_be")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 PRIVATE_BOT_MODE_MEM = int(getenv("PRIVATE_BOT_MODE_MEM", 0))
@@ -96,10 +96,10 @@ PING_IMG_URL = getenv(
 PLAYLIST_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ikdmjt.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/gAT.jpg"
-STREAM_IMG_URL = "https://envs.sh/gAT.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/gAT.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/gAT.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ikdmjt.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/ikdmjt.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/gAT.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/ovA.jpeg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/gAT.jpg"
